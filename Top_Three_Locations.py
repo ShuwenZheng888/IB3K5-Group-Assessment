@@ -1,7 +1,4 @@
 import pandas as pd
-import numpy as np
-import scipy
-from scipy.stats import pearsonr
 
 # Read the data and set the preference
 data = pd.read_excel('/Users/mac/Desktop/IB3K5/CustomerShoppingTrends.xlsx')
