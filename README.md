@@ -15,7 +15,9 @@ This code writes the output of the Pearson Coefficient of all **Color** on **Pur
 
 3. `Highest_Count.py`
 
-This code finds the *color* that has the most occurrences in each specific category within the top three locations. The result is printed by the code and will be used for the final analysis.
+This code finds the *color* that has the most occurrences in each specific category within the top three locations. 
+
+The result is printed by the code and will be used for the final analysis.
 
 4. `HeatMap_Arizona.py`
 
