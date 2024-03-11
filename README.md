@@ -3,7 +3,7 @@
 This GitHub file is used as a code reference for the IB3K5 group assessment (group 30) data analysis and data visualization. It consists of three parts: python code for each part of the data analysis result, a Jupyter Notebook file for all the code included and a zip file includes all the data txt.
 
 ## Python Files
-There are six Python files included:
+There are seven Python files included:
 
 1. `Top_Three_Locations.py `
 
@@ -30,6 +30,8 @@ This code is the visualization code to draw the heat map of Kansas.
 6. `HeatMap_RhodeIsland.py `
 
 This code is the visualization code to draw the heat map of Rhode Island.
+
+7. `Cluster.py `
 
 
 ## Jupyter Notebook
