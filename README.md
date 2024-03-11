@@ -33,7 +33,7 @@ This code is the visualization code to draw the heat map of Rhode Island.
 
 7. `Cluster.py`
 
-This code is used to do the K-Means Clustering of **Age** and **Purchase Amount** and find which type of cluster is the most common in the top 3 cities find in `Top_Three_Locations.py `file.
+This code is used to do the K-Means Clustering of **Age** and **Purchase Amount** and find which type of cluster is the most common in the top 3 cities find in `Top_Three_Locations.py`file.
 The code then draw the scatter plot of the whole data, and draw the specific scatter plot for these 3 cities.
 
 ## Jupyter Notebook
