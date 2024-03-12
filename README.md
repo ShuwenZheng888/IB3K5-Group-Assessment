@@ -36,6 +36,14 @@ This code is the visualization code to draw the heat map of Rhode Island.
 This code is used to do the K-Means Clustering of **Age** and **Purchase Amount** and find which type of cluster is the most common in the top 3 cities find in `Top_Three_Locations.py`file.
 The code then draw the scatter plot of the whole data, and draw the specific scatter plot for these 3 cities.
 
+8.`check_data.py`
+
+This code is used to check if the excel data has any null or duplicate value. For the column which will be used for data anlysis,check the two numeric columns(Purchase Amount and Age) have any values except from number and check the other three categorical columns(Category, Color and Location) have any values except from string.
+
+9. `check_outliers.py`
+
+This code is used to check if the numeric data we are using(Purchase Amount and Age) have any outliers and draw boxplot to visualize.
+
 ## Jupyter Notebook
 `Combination_Final.ipynb`
 
