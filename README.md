@@ -1,6 +1,6 @@
 
 # Instruction
-This GitHub file is used as a code reference for the IB3K5 group assessment (group 30) data analysis and data visualization. It consists of three parts: python code for each part of the data analysis result, a Jupyter Notebook file for all the code included and a zip file includes all the data txt.
+This GitHub file is used as a code reference for the IB3K5 group assessment (group 30) data analysis and data visualization. It consists of three parts: python code for each part of the data analysis result, two Jupyter Notebook files with all the code included and a zip file includes all the data txt.
 
 ## Python Files
 There are seven Python files included:
@@ -40,6 +40,10 @@ The code then draw the scatter plot of the whole data, and draw the specific sca
 `Combination_Final.ipynb`
 
 This Jupyter Notebook code contains all the Python code and output result in one file which is easier to read and compare.
+
+`Data_Cleaning.ipynb`
+
+This Jupyter Notebook code contains all the Python code used for data cleaning and output result in one file which is easier to read and compare.
 
 ## Zip File
 `Coefficient_Data.zip`
