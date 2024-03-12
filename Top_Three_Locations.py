@@ -14,7 +14,7 @@ for location in grouped_data['Location'].unique():
     # Filter the data by location
     location_data = grouped_data[grouped_data['Location'] == location]
 
-    # Encode and set dummy varibables for color
+    # Encode and set dummy variables for color
     data_encoded = pd.get_dummies(location_data, columns=['Color']).drop(columns=['Location'])
 
     # Calculate the correlation matrix
