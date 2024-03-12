@@ -45,13 +45,14 @@ This code is used to do the K-Means Clustering of **Age** and **Purchase Amount*
 The code then draw the scatter plot of the whole data, and draw the specific scatter plot for these 3 cities.
 
 ## Jupyter Notebook
-`Combination_Final.ipynb`
 
-This Jupyter Notebook code contains all the Python code and output result in one file which is easier to read and compare.
-
-`Data_Cleaning.ipynb`
+1. `Data_Cleaning.ipynb`
 
 This Jupyter Notebook code contains all the Python code used for data cleaning and output result in one file which is easier to read and compare.
+
+2. `Combination_Final.ipynb`
+
+This Jupyter Notebook code contains all the Python code and output result in one file which is easier to read and compare.
 
 ## Zip File
 `Coefficient_Data.zip`
