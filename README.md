@@ -13,7 +13,7 @@ This code is used to check if the excel data has any null or duplicate value. Fo
 
 This code is used to check if the numeric data we are using (Purchase Amount and Age) have any **outliers** and draw boxplot to visualize.
 
-3. `Peason_Coefficient.py`
+3. `Pearson_Coefficient.py`
 
 This code is used to find the Pearson correlation coefficient between **five different categorical columns**(Item Purchased, Category, Location, Color,Season) and **Purchase Amount**. 
 
