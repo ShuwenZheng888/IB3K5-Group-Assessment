@@ -3,7 +3,7 @@
 This GitHub file is used as a code reference for the IB3K5 group assessment (group 30) data analysis and data visualization. It consists of three parts: python code for each part of the data analysis result, two Jupyter Notebook files with all the code included and a zip file includes all the data txt.
 
 ## Python Files
-There are 9 Python files included:
+There are 10 Python files included:
 
 1. `check_data.py`
 
@@ -13,33 +13,37 @@ This code is used to check if the excel data has any null or duplicate value. Fo
 
 This code is used to check if the numeric data we are using(Purchase Amount and Age) have any outliers and draw boxplot to visualize.
 
-3. `Top_Three_Locations.py`
+3. `Peason_Coefficient.py`
+
+This code is used to find the Pearson correlation coefficient between five different categorical columns(Item Purchased, Category, Location, Color,Season) and Purchase Amount. 
+
+4. `Top_Three_Locations.py`
 
 This code is used to find the top three locations' **Purchase Amount** affected most by **Color** and write all the results into a *correlation_{location}.txt* file.
 
-4. `Location_Category_Data.py`
+5. `Location_Category_Data.py`
 
 This code writes the output of the Pearson Coefficient of all **Color** on **Purchase Amount**, in each specific category within each location. The result is stored in a *correlation_{Category}_{location}.txt* file and the data is used to give insight later.
 
-5. `Highest_Count.py`
+6. `Highest_Count.py`
 
 This code finds the *color* that has the most occurrences in each specific category within the top three locations. 
 
 The result is printed by the code and will be used for the final analysis.
 
-6. `HeatMap_Arizona.py`
+7. `HeatMap_Arizona.py`
 
 This code is the visualization code to draw the heat map of Arizona.
 
-7. `HeatMap_Kansas.py`
+8. `HeatMap_Kansas.py`
 
 This code is the visualization code to draw the heat map of Kansas.
 
-8. `HeatMap_RhodeIsland.py`
+9. `HeatMap_RhodeIsland.py`
 
 This code is the visualization code to draw the heat map of Rhode Island.
 
-9. `Cluster.py`
+10. `Cluster.py`
 
 This code is used to do the K-Means Clustering of **Age** and **Purchase Amount** and find which type of cluster is the most common in the top 3 cities find in `Top_Three_Locations.py`file.
 The code then draw the scatter plot of the whole data, and draw the specific scatter plot for these 3 cities.
@@ -52,7 +56,7 @@ This Jupyter Notebook code contains all the Python code used for data cleaning a
 
 2. `Combination_Final.ipynb`
 
-This Jupyter Notebook code contains all the Python code and output result in one file which is easier to read and compare.
+This Jupyter Notebook code contains all the other Python code (for data anlysis part) and output result in one file which is easier to read and compare.
 
 ## Zip File
 `Coefficient_Data.zip`
