@@ -14,7 +14,7 @@ for location in grouped_data['Location'].unique():
     # Filter the data by location
     location_data = grouped_data[grouped_data['Location'] == location]
 
-    # Encode and set dummy variables for color
+    # Encode and set dummy varibables for color
     data_encoded = pd.get_dummies(location_data, columns=['Color']).drop(columns=['Location'])
 
     # Calculate the correlation matrix
@@ -27,7 +27,7 @@ for location in grouped_data['Location'].unique():
         correlations = correlation_matrix['Purchase Amount (USD)'].drop('Purchase Amount (USD)', errors='ignore')
         for index, value in correlations.items():
             file.write(f"{index} {value}\n")
-
+            
     def calculate_absolute_average(file_name):
         """Calculate the absolute average for each location"""
         total_abs_value = 0
@@ -35,19 +35,14 @@ for location in grouped_data['Location'].unique():
 
         with open(file_name, 'r') as file:
             for line in file:
-                splitParts = line.split()
-                if len(splitParts) == 2:
-                    try:
-                        value = float(splitParts[1])
-                        total_abs_value += abs(value)
-                        count += 1
-                    except ValueError:
-                        print(f"Error converting {splitParts[1]} to float.")
-
-        if count > 0:
-            return total_abs_value / count
-        else:
-            return None  
+                try:
+                    value = float(line.split()[-1])
+                    total_abs_value += abs(value)
+                    count += 1
+                except ValueError as e:
+                    print(f"Error processing line: {line.strip()}")
+        return total_abs_value / count if count > 0 else None
+        
 
     absolute_average = calculate_absolute_average(file_name)
     absolute_averages[location] = absolute_average
@@ -57,3 +52,4 @@ top_3_locations = sorted(absolute_averages.items(), key=lambda x: x[1], reverse=
 print("Top 3 locations with the highest absolute average correlations:")
 for location, absolute_average in top_3_locations:
     print(f"{location}: {absolute_average}")
+
