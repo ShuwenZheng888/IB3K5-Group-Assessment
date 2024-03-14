@@ -21,14 +21,14 @@ plt.title('Boxplot of Purchse Amount')
 plt.show()
 
 # Interquartile Range (IQR) method to check if there is any outliers of Age
-Q1 = data['Age'].quantile(0.25)
-Q3 = data['Age'].quantile(0.75)
-IQR = Q3 - Q1
-lower_bound = Q1 - 1.5 * IQR
-upper_bound = Q3 + 1.5 * IQR
+Q1_age = data['Age'].quantile(0.25)
+Q3_age = data['Age'].quantile(0.75)
+IQR_age = Q3_age - Q1_age
+lower_bound_age = Q1_age - 1.5 * IQR_age
+upper_bound_age = Q3_age + 1.5 * IQR_age
 
-outliers = data[(data['Age'] < lower_bound) | (data['Age'] > upper_bound)]
-print(outliers)
+outliers_age = data[(data['Age'] < lower_bound_age) | (data['Age'] > upper_bound_age)]
+print(outliers_age)
 
 # Boxplot to visualize outliers
 data['Age'].plot(kind='box')
