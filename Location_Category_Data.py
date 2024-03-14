@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Load the data and set the preference
+#  the data and set the preference
 data = pd.read_excel('/Users/mac/Desktop/IB3K5/CustomerShoppingTrends.xlsx')
 pd.set_option('display.max_rows', None)
 
