@@ -17,7 +17,7 @@ print(outliers)
 
 # Boxplot to visualize outliers
 data['Purchase Amount (USD)'].plot(kind='box')
-plt.title('Boxplot of Purchse Amount')
+plt.title('Boxplot of Purchase Amount')
 plt.show()
 
 # Interquartile Range (IQR) method to check if there is any outliers of Age
