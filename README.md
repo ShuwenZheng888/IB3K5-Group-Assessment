@@ -5,11 +5,11 @@ This GitHub file is used as a code reference for the IB3K5 group assessment (gro
 ## Python Files
 There are 10 Python files included:
 
-1. `check_data.py`
+1. `Check_Data.py`
 
 This code is used to check if the excel data has any null or duplicate value. For the column which will be used for data anlysis,check the two numeric columns(Purchase Amount and Age) have any values except from number and check the other three categorical columns(Category, Color and Location) have any values except from string.
 
-2. `check_outliers.py`
+2. `Check_Outliers.py`
 
 This code is used to check if the numeric data we are using (Purchase Amount and Age) have any **outliers** and draw boxplot to visualize.
 
